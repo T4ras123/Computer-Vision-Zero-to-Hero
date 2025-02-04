@@ -21,4 +21,4 @@ AlexNet, introduced by Krizhevsky et al. in 2012, sparked the deep learning revo
 - **Rigid Structure:** Less flexible than modular architectures like GoogLeNet.
 
 ## Other Considerations
-AlexNet’s architecture has been highly influential in designing subsequent models. Inline LaTeX expressions can help describe layer dimensions precisely, e.g., an $11 \times 11$ convolutional operator.
+AlexNet’s architecture has been highly influential in designing subsequent models.

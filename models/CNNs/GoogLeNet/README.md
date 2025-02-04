@@ -18,4 +18,4 @@ GoogLeNet was introduced by Szegedy et al. in 2014 as part of the ImageNet chall
 - **Hyperparameter Sensitivity:** Requires careful tuning of filter sizes for optimal performance.
 
 ## Other Considerations
-The design emphasizes the trade-off between depth, width, and computational efficiency. Using inline LaTeX (e.g., $3 \times 3$ filters) makes it easier to describe spatial dimensions and operations.
+The design emphasizes the trade-off between depth, width, and computational efficiency. 

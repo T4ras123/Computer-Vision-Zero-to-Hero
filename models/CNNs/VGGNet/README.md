@@ -19,4 +19,4 @@ VGGNet, particularly the VGG16 variant, was introduced by Simonyan and Zisserman
 - **Large Memory Footprint:** The increased number of layers and parameters result in higher memory usage.
 
 ## Other Considerations
-VGGNet’s design is a classic example of how deeper networks with small filters can perform robustly. Its simplicity makes it an excellent baseline for comparing more advanced architectures, and using inline LaTeX helps to clearly convey filter sizes and layer structures (e.g., $3 \times 3$ convolutions).
+VGGNet’s design is a classic example of how deeper networks with small filters can perform robustly. Its simplicity makes it an excellent baseline for comparing more advanced architectures.
