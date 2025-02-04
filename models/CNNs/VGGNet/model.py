@@ -72,4 +72,5 @@ if __name__ == "__main__":
     model = VGG16(num_classes=1000)
     input_tensor = torch.randn(1, 3, 224, 224)  # Example input tensor (batch_size, channels, height, width)
     output = model(input_tensor)
+    print(model)
     print(output.shape)  # Should be torch.Size([1, 1000])

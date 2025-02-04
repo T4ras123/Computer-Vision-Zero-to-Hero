@@ -1,29 +1,22 @@
-# LeNet-5 in PyTorch
+# LeNet-5
 
-Welcome to the LeNet-5 implementation! This is a simple and beginner-friendly PyTorch implementation of the classic **LeNet-5** architecture, designed for the **MNIST handwritten digit classification** task. Whether you're new to deep learning or just want to understand how CNNs work, this is a great place to start.
+## Historical Context
+LeNet-5, designed by Yann LeCun et al. in 1998, is among the earliest convolutional neural networks. Initially developed for handwritten digit recognition (MNIST), it laid the foundation for modern deep learning-based vision systems.
 
----
+## Architectural Overview
+- **Convolution Layers:** Two convolution layers with $5 \times 5$ filters extract basic visual features.
+- **Pooling Layers:** Average pooling reduces spatial dimensions, preserving translation invariance.
+- **Fully-Connected Layers:** The network flattens the feature maps and passes them through three linear layers for classification.
+- **Activation:** Uses ReLU activations after each convolution and fully connected layer.
 
-## What is LeNet-5?
+## Advantages
+- **Simplicity:** Straightforward architecture ideal for beginners.
+- **Lightweight:** Contains a low number of parameters, which makes training on modest hardware possible.
+- **Historical Significance:** Serves as a starting point for understanding CNN evolution.
 
-LeNet-5 is one of the earliest convolutional neural networks (CNNs), introduced by Yann LeCun in 1998. It was originally designed to recognize handwritten digits and is a great introduction to CNNs. The architecture is simple but powerful, making it perfect for learning.
+## Disadvantages
+- **Limited Capacity:** Not suitable for complex image tasks or large datasets.
+- **Lack of Modern Techniques:** Does not incorporate techniques like dropout, batch normalization, or deeper layer stacking found in advanced models.
 
----
-
-## How Does It Work?
-
-The LeNet-5 model consists of:
-1. **Convolutional Layers**: Extract features from the input image.
-2. **Pooling Layers**: Reduce the spatial dimensions of the feature maps.
-3. **Fully Connected Layers**: Combine features to make predictions.
-
-Here’s the breakdown of the architecture:
-- Input: 32x32 grayscale image (MNIST images are resized from 28x28).
-- Convolutional Layer 1: 6 filters of size 5x5, followed by ReLU activation.
-- Pooling Layer 1: 2x2 average pooling.
-- Convolutional Layer 2: 16 filters of size 5x5, followed by ReLU activation.
-- Pooling Layer 2: 2x2 average pooling.
-- Fully Connected Layer 1: 120 neurons with ReLU activation.
-- Fully Connected Layer 2: 84 neurons with ReLU activation.
-- Output Layer: 10 neurons (one for each digit class).
-
+## Other Considerations
+LeNet-5 remains an excellent learning tool. Its structure demonstrates key CNN operations such as convolution, pooling, and fully connected layers, ideal for educational purposes.
